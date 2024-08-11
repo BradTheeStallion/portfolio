@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Styles/InteractiveArt.css";
+import "./Styles/Project.css";
 
 
 const InteractiveArt = () => {
