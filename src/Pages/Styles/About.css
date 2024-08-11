@@ -1,0 +1,14 @@
+.about {
+    display: flex;
+    text-align: left;
+}
+
+.about-half {
+    width: 50%;
+    padding: 5%;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
