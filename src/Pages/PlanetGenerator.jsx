@@ -14,6 +14,7 @@ const PlanetGenerator = () => {
       <div className='project-box'>
       <iframe 
         src="https://bradtheestallion.github.io/planet-finder/" title="Doggy Dog World"
+        className='planet-generator'
       ></iframe>
       </div>
       <p>Click <a href="https://github.com/BradTheeStallion/planet-finder" target='_blank'>here</a> to interact with the code.</p>

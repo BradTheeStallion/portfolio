@@ -20,7 +20,6 @@
 
 .project-box {
   margin: 2% 5% 1% 5%;
-  width: 90%;
   background-color: var(--secondary-color);
 }
 
@@ -32,9 +31,11 @@
   height: fit-content;
   padding: 1% 5%;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px var(--text-color);
   transition: 0.3s;
   text-align: left;
+  justify-self: center;
+  width: 100%;
 }
 
 .nav-links a {
@@ -55,4 +56,8 @@
 
 .App {
   background-color: var(--secondary-color);
+}
+
+.profile-image {
+  box-shadow: 0 4px 8px var(--text-color);
 }
