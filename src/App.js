@@ -6,11 +6,13 @@ import Header from './Components/Header/Header';
 import About from './Pages/About';
 import PlanetGenerator from './Pages/PlanetGenerator';
 import Nav from './Components/Nav/Nav';
+import ColorUpdater from './Components/ColourSwitch/ColourSwitch';
 import './App.css';
 
 function App() {
   return (
     <Router>
+      <ColorUpdater />
       <div className="App">
         <Header />
         <Nav />
