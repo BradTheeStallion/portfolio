@@ -7,8 +7,8 @@ const Footer = () => {
                 <a href="mailto:bradley.ayers@keyin.com">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
+                        width="32"
+                        height="32"
                         viewBox="0 0 24 24"
                     >
                         <path d="M0 0h24v24H0z" fill="none" />
@@ -21,22 +21,22 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/bradley-ayers">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
+                        width="32"
+                        height="32"
                         viewBox="0 0 24 24"
                     >
                         <path d="M0 0h24v24H0z" fill="none" />
                         <path
                             fill="currentColor"
-                            d="M20 2H4a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zm-9 16h-2v-6H7v6H5V9h2v2h2V9h2v9zm5 0h-2v-3.5c0-1.03-.47-1.5-1.1-1.5.62 0 1.1-.47 1.1-1.5V9h2l-.2 3.5h.2V18z"
+                            d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5 11.5h-3v-5.5c0-1.38-.56-2.5-2-2.5s-2 1.12-2 2.5v5.5h-3v-10h3v1.5c.5-.77 1.5-1.5 2.5-1.5 2.5 0 3.5 1.5 3.5 4v6z"
                         />
                     </svg>
                 </a>
                 <a href="https://github.com/BradTheeStallion">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        width="24"
-                        height="24"
+                        width="32"
+                        height="32"
                         viewBox="0 0 24 24"
                     >
                         <path d="M0 0h24v24H0z" fill="none" />

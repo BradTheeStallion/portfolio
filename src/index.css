@@ -14,7 +14,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  width: 100%; 
+  width: 100%;
 }
 
 .nav-bar {
@@ -24,11 +24,13 @@ body {
 .component-box {
   margin: 1% auto;
   background-color: var(--primary-color);
+  width: 85%;
 }
 
 .project-box {
   margin: 2% 5% 1% 5%;
   background-color: var(--secondary-color);
+  width: 90%;
 }
 
 .project-box, .component-box {
@@ -43,7 +45,6 @@ body {
   transition: 0.3s;
   text-align: left;
   justify-self: center;
-  width: 100%;
 }
 
 .nav-links a {
@@ -56,6 +57,9 @@ body {
 
 .header {
   background-color: var(--primary-color);
+}
+.main-content {
+  overflow-x: hidden;
 }
 
 .header-text h1 {

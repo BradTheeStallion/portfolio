@@ -16,7 +16,7 @@ function App() {
       <Router>
         <ColorUpdater />
         <Nav />
-        <div className="MainContent">
+        <div className="main-content">
           <Header />
           <Routes>
             <Route path="/" element={<About />} />

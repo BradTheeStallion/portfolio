@@ -3,9 +3,9 @@
     text-align: left;
 }
 
-.about-half {
-    width: 50%;
-    padding: 5%;
+.text-left-about {
+    width: 40%;
+    padding: 0 5%;
 }
 
 .list {
