@@ -9,6 +9,14 @@
   color: var(--text-color);
 }
 
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+
 .nav-bar {
   background-color: var(--secondary-color);
 }
