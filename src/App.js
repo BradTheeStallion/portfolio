@@ -19,7 +19,7 @@ function App() {
         <div className="main-content">
           <Header />
           <Routes>
-            <Route path="" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/interactive-art" element={<InteractiveArt />} />
             <Route path="/doggy-dog-world" element={<DoggyDogWorld />} />
             <Route path="/planet-generator" element={<PlanetGenerator />} />
