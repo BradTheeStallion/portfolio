@@ -21,6 +21,8 @@ const About = () => {
                         <p>I started this portfolio keeping principles of test-driven development in mind and plan to continue testing new components as I add them.</p>
                         <p>Feel free to take a look around and check out my projects!</p>
                         <p>My contact information is in the footer, please don't hesitate to reach out!</p>
+                        <p>Don't like the colour scheme? Refresh the page until you do!</p>
+                        <p>Click <a href='https://github.com/BradTheeStallion/portfolio'>here</a>to see the code.</p>
                     </div>
                 </div>
                 <h2>Notable Certifications</h2>
