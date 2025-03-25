@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Styles/Project.css";
 import AstroTurfLogo from './img/AstroTurf.jpeg';
+import AstroTurfApp from './AstroTurfApp';
 
 
 const AstroTurf = () => {
@@ -10,8 +11,8 @@ const AstroTurf = () => {
         <div className='text-left'>
       <h2>AstroTurf</h2>
       <p>This one started as the combined 2nd QAP for my Software Development and Testing & DevOps courses at Keyin College.</p>
-      <p>I had the opportunity to explore different ways to host a backend and create a basic frontend for the API, which allowed me to expand my skills beyond the initial scope. And the best part? This was all done for free—just imagine what I could achieve with a budget!</p>
-      <p>If you don't have a Retool account, feel free to test the API on Postman with the public url https://astroturf.onrender.com (you can find some sample commands in the <a href='https://github.com/BradTheeStallion/astroturf/blob/main/README.md' target='_blank'>readME</a>)</p>
+      <p>I had the opportunity to explore different ways to host a backend and create a basic frontend for the API, which allowed me to expand my skills beyond the initial scope.</p>
+      <p>The web version has limited functionality, but please test the API on Postman with the public url https://astroturf.onrender.com (you can find some sample commands in the <a href='https://github.com/BradTheeStallion/astroturf/blob/main/README.md' target='_blank'>readME</a>)</p>
       <p>Key Skills:</p>
       <ul>
         <li>Java (Spring Boot, Maven, JUnit, Mockito)</li>
@@ -19,13 +20,10 @@ const AstroTurf = () => {
         <li>MySQL (Database)</li>
         <li>Aiven (Database host)</li>
         <li>Render (API Host)</li>
-        <li>Retool (GUI)</li>
       </ul>
       </div>
       <div className='project-box'>
-      <iframe 
-        src="https://bradtheestallion.retool.com/apps/AstroTurf" title="AstroTurf"
-      ></iframe>
+      <AstroTurfApp />
       </div>
       <p>Click <a href="https://github.com/BradTheeStallion/astroturf" target='_blank'>here</a> to interact with the code. I recommend cloning it and trying out some tests on Postman for yourself!</p>
     </div>
