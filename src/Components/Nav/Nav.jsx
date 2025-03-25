@@ -10,6 +10,7 @@ function Nav() {
         <li><Link to="/interactive-art">Interactive Art</Link></li>
         <li><Link to="/doggy-dog-world">Doggy Dog World</Link></li>
         <li><Link to="/planet-generator">Planet Generator</Link></li>
+        <li><Link to="/astro-turf">AstroTurf</Link></li>
       </ul>
     </nav>
   );
