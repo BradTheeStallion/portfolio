@@ -11,6 +11,7 @@ const AstroTurf = () => {
       <h2>AstroTurf</h2>
       <p>This one started as the combined 2nd QAP for my Software Development and Testing & DevOps courses at Keyin College.</p>
       <p>I had the opportunity to explore different ways to host a backend and create a basic frontend for the API, which allowed me to expand my skills beyond the initial scope. And the best part? This was all done for free—just imagine what I could achieve with a budget!</p>
+      <p>If you don't have a Retool account, feel free to test the API on Postman with the public url https://astroturf.onrender.com (you can find some sample commands in the <a href='https://github.com/BradTheeStallion/astroturf/blob/main/README.md' target='_blank'>readME</a>)</p>
       <p>Key Skills:</p>
       <ul>
         <li>Java (Spring Boot, Maven, JUnit, Mockito)</li>
