@@ -11,6 +11,7 @@ function Nav() {
         <li><Link to="/doggy-dog-world">Doggy Dog World</Link></li>
         <li><Link to="/planet-generator">Planet Generator</Link></li>
         <li><Link to="/astro-turf">AstroTurf</Link></li>
+        <li><Link to="/binary-tree">Binary Search Tree</Link></li>
       </ul>
     </nav>
   );
