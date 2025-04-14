@@ -39,3 +39,10 @@ jobs:
         run: |
           aws s3 rm "s3://${{ secrets.AWS_S3_BUCKET_NAME }}" --recursive
           aws s3 cp "${{ github.workspace }}/build/" "s3://${{ secrets.AWS_S3_BUCKET_NAME }}" --recursive
+
+      - name: Add CSP headers to HTML/JS files
+        run: |
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html --metadata-directive REPLACE --metadata Content-Security-Policy="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/404.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/404.html --metadata-directive REPLACE --metadata Content-Security-Policy="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/main.8dadc5b5.js s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/main.8dadc5b5.js --metadata-directive REPLACE --metadata Content-Security-Policy="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/453.5858e738.chunk.js s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/453.5858e738.chunk.js --metadata-directive REPLACE --metadata Content-Security-Policy="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'"
