@@ -42,8 +42,8 @@ jobs:
 
       - name: Add CSP headers to HTML/JS files
         run: |
-          CSP_HEADER="default-src%20'self'%3B%20script-src%20'self'%20'unsafe-eval'%3B%20style-src%20'self'%20'unsafe-inline'"
-          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER}"
-          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/404.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/404.html --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER}"
-          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/main.8dadc5b5.js s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/main.8dadc5b5.js --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER}"
-          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/453.5858e738.chunk.js s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/453.5858e738.chunk.js --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER}"
+          CSP_HEADER="default-src 'self'; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER//\'/\\'}"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/404.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/404.html --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER//\'/\\'}"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/main.8dadc5b5.js s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/main.8dadc5b5.js --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER//\'/\\'}"
+          aws s3 cp s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/453.5858e738.chunk.js s3://${{ secrets.AWS_S3_BUCKET_NAME }}/static/js/453.5858e738.chunk.js --metadata-directive REPLACE --metadata "Content-Security-Policy=${CSP_HEADER//\'/\\'}"
