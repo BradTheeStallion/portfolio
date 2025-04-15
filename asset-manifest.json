@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.ac75e62a.css",
-    "main.js": "/static/js/main.d9183dcc.js",
-    "static/js/453.5858e738.chunk.js": "/static/js/453.5858e738.chunk.js",
-    "static/media/brad.png": "/static/media/brad.eabd37bb941d19a19919.png",
-    "static/media/HackathonResumeBA.pdf": "/static/media/HackathonResumeBA.dc9e5ab59e0f60598b80.pdf",
-    "static/media/AstroTurf.jpeg": "/static/media/AstroTurf.5021c1efda4f033b3f69.jpeg",
-    "static/media/Awsccp.png": "/static/media/Awsccp.91e43b6542a259b7268d.png",
-    "index.html": "/index.html",
-    "main.ac75e62a.css.map": "/static/css/main.ac75e62a.css.map",
-    "main.d9183dcc.js.map": "/static/js/main.d9183dcc.js.map",
-    "453.5858e738.chunk.js.map": "/static/js/453.5858e738.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.ac75e62a.css",
+    "main.js": "/portfolio/static/js/main.21efd822.js",
+    "static/js/453.5858e738.chunk.js": "/portfolio/static/js/453.5858e738.chunk.js",
+    "static/media/brad.png": "/portfolio/static/media/brad.eabd37bb941d19a19919.png",
+    "static/media/HackathonResumeBA.pdf": "/portfolio/static/media/HackathonResumeBA.dc9e5ab59e0f60598b80.pdf",
+    "static/media/AstroTurf.jpeg": "/portfolio/static/media/AstroTurf.5021c1efda4f033b3f69.jpeg",
+    "static/media/Awsccp.png": "/portfolio/static/media/Awsccp.91e43b6542a259b7268d.png",
+    "index.html": "/portfolio/index.html",
+    "main.ac75e62a.css.map": "/portfolio/static/css/main.ac75e62a.css.map",
+    "main.21efd822.js.map": "/portfolio/static/js/main.21efd822.js.map",
+    "453.5858e738.chunk.js.map": "/portfolio/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac75e62a.css",
-    "static/js/main.d9183dcc.js"
+    "static/js/main.21efd822.js"
   ]
 }
