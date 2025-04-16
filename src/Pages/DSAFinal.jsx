@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Styles/Project.css";
-import BinarySearchTree from './BinarySearchTree';
 
 
 const DSAFinal = () => {
