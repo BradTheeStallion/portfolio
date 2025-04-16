@@ -22,7 +22,7 @@ const DSAFinal = () => {
       </ul>
       </div>
       <div className='project-box'>
-      <iframe src="http://brad-thee-stallion-portfolio.s3-website-us-east-1.amazonaws.com/" frameborder="0"></iframe>
+      <iframe src="https://d2xcjwx12yoeuh.cloudfront.net" frameborder="0"></iframe>
       </div>
       <p>Click <a href="https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint/" target='_blank'>here</a> to interact with the backend code and <a href="https://github.com/BradTheeStallion/binary-search-tree/" target='_blank'>here</a> to interact with the frontend.</p>
     </div>
