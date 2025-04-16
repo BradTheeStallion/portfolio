@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ac75e62a.css",
-    "main.js": "/portfolio/static/js/main.21efd822.js",
+    "main.js": "/portfolio/static/js/main.6d39a40d.js",
     "static/js/453.5858e738.chunk.js": "/portfolio/static/js/453.5858e738.chunk.js",
     "static/media/brad.png": "/portfolio/static/media/brad.eabd37bb941d19a19919.png",
     "static/media/HackathonResumeBA.pdf": "/portfolio/static/media/HackathonResumeBA.dc9e5ab59e0f60598b80.pdf",
@@ -9,11 +9,11 @@
     "static/media/Awsccp.png": "/portfolio/static/media/Awsccp.91e43b6542a259b7268d.png",
     "index.html": "/portfolio/index.html",
     "main.ac75e62a.css.map": "/portfolio/static/css/main.ac75e62a.css.map",
-    "main.21efd822.js.map": "/portfolio/static/js/main.21efd822.js.map",
+    "main.6d39a40d.js.map": "/portfolio/static/js/main.6d39a40d.js.map",
     "453.5858e738.chunk.js.map": "/portfolio/static/js/453.5858e738.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac75e62a.css",
-    "static/js/main.21efd822.js"
+    "static/js/main.6d39a40d.js"
   ]
 }
