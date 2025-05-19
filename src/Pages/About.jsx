@@ -39,23 +39,21 @@ const About = () => {
         AppleOriginal
     ];
 
-    const midIndex = Math.ceil(icons.length / 2);
-    const iconRows = [icons.slice(0, midIndex), icons.slice(midIndex)];
-
     return (
         <div className='component-box'>
             <div className='project-box'>
                 <div className='about'>
+
                     <div className='text-left-about'>
                         <h2>Skills</h2>
-                        {iconRows.map((row, rowIndex) => (
-                            <div key={rowIndex} className='code-logos'>
-                                {row.map((Icon, i) => (
-                                    <Icon key={i} size={80} />
-                                ))}
-                            </div>
-                        ))}
+                        <div className='code-logos'>
+                            {icons.map((Icon, i) => (
+                                <Icon key={i} size={80} />
+                            ))}
+                        </div>
+                    </div>
 
+                    <div className='text-left-about'>
                         <h2>About Me</h2>
                         <p>Hello! I’m Brad, a recent graduate of Keyin College's software development program in St. John’s, Newfoundland.</p>
                         <p>I'm currently working with Keyin as a micro-credential tech support specialist where I do my best to ensure that all students can learn without technical disruptions.</p>
@@ -80,6 +78,7 @@ const About = () => {
                         <p>Don't like the colour scheme? Refresh the page until you do!</p>
                         <p>Click <a href='https://github.com/BradTheeStallion/portfolio' target="_blank" rel="noreferrer">here</a> to see the code.</p>
                     </div>
+
                 </div>
             </div>
         </div>
