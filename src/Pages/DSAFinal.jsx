@@ -21,6 +21,7 @@ const DSAFinal = () => {
           </ul>
         </div>
         <div className='project-box'>
+          <div className='readme'>
           <p>
             <a href="https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint/actions/workflows/ci.yml">
               <img src="https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint/actions/workflows/ci.yml/badge.svg" alt="JUnit Tests" />
@@ -40,6 +41,7 @@ const DSAFinal = () => {
             <li><h3><a href="http://brad-thee-stallion-portfolio.s3-website-us-east-1.amazonaws.com/" target="_blank">Deployed Project</a></h3></li>
           </ul>
         </div>
+    </div>
     </div>
   );
 };
