@@ -15,3 +15,12 @@ iframe {
     overflow-y: scroll;
     overflow-x:auto
 }
+
+.readme iframe {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: none;
+    margin: 0;
+    padding: 2%;
+    overflow:scroll;
+}

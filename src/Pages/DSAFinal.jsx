@@ -35,10 +35,17 @@ const DSAFinal = () => {
 
           <h1>Binary Search Trees</h1>
           <h2>Final Sprint Project for Data Structures and Algorithms</h2>
+          <iframe 
+  src="https://d10wyny87tow42.cloudfront.net/"
+  title="My Portfolio Project"
+>
+  <p>Your browser does not support iframes. 
+     Please visit <a href="https://d10wyny87tow42.cloudfront.net/">the project directly</a>.
+  </p>
+</iframe>
           <ul>
             <li><h3><a href='https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint' target='_blank'>Backend GitHub</a></h3></li>
             <li><h3><a href="https://github.com/BradTheeStallion/binary-search-tree" target="_blank">Frontend GitHub</a></h3></li>
-            <li><h3><a href="http://brad-thee-stallion-portfolio.s3-website-us-east-1.amazonaws.com/" target="_blank">Deployed Project</a></h3></li>
           </ul>
         </div>
     </div>
