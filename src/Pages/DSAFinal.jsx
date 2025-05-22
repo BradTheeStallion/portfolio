@@ -21,6 +21,14 @@ const DSAFinal = () => {
           </ul>
         </div>
         <div className='project-box'>
+        <iframe 
+  src="https://d10wyny87tow42.cloudfront.net/"
+  title="My Portfolio Project"
+>
+  <p>Your browser does not support iframes. 
+     Please visit <a href="https://d10wyny87tow42.cloudfront.net/">the project directly</a>.
+  </p>
+</iframe>
           <div className='readme'>
           <p>
             <a href="https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint/actions/workflows/ci.yml">
@@ -32,17 +40,6 @@ const DSAFinal = () => {
               <img src="https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint/actions/workflows/cd.yml/badge.svg" alt="Deploy to EC2" />
             </a>
           </p>
-
-          <h1>Binary Search Trees</h1>
-          <h2>Final Sprint Project for Data Structures and Algorithms</h2>
-          <iframe 
-  src="https://d10wyny87tow42.cloudfront.net/"
-  title="My Portfolio Project"
->
-  <p>Your browser does not support iframes. 
-     Please visit <a href="https://d10wyny87tow42.cloudfront.net/">the project directly</a>.
-  </p>
-</iframe>
           <ul>
             <li><h3><a href='https://github.com/BradTheeStallion/DataStructuresAlgorithms_FinalSprint' target='_blank'>Backend GitHub</a></h3></li>
             <li><h3><a href="https://github.com/BradTheeStallion/binary-search-tree" target="_blank">Frontend GitHub</a></h3></li>
